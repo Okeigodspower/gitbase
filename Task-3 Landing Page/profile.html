@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <style>
+
+
+.div1{
+  margin: 0%;
+  position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 8px;
+    
+    
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: blue;
+    color: coral;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+       
+.divh1{
+    margin-left: 30px;
+text-align: center;
+color: rgb(255, 255, 255);
+margin-top: 20px;
+padding: 5px;
+border-radius:15px;
+background-color: darkblue; 
+
+ }
+
+
+input[type=text] , select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 2px solid purple;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+div{
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 2px solid purple;
+box-sizing: border-box;
+border-radius: 8px;
+}
+input[type=email]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+box-sizing: border-box;
+border: 2px solid purple;
+border-radius: 8px;
+}
+.btn{
+background-color: blue;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border-radius: 18px;
+box-sizing: border-box; 
+border: 2px solid blue;
+color: white;
+cursor: pointer;
+
+}
+.btn:hover {
+background-color:powderblue;
+color:purple;
+}
+
+label{
+color: chocolate;
+
+}
+ 
+    </style>
+
+ <div class="div1">
+    <ul>
+        <li><a href="./index.html">Dashboard</a></li>
+        <li><a href="#news">Notification</a></li>
+        <li><a href="#contact">Contact us</a></li>
+        <li style="float:right;   border: 2px solid grey;
+        border-radius: 8px;"><a class="active" href="#about">Sign-Up</a></li>
+    </ul>
+</div>
+
+
+
+
+   <div class="divh1"> <h1>REGISTRATION FORM  </h1></div>
+   <br>
+    <div>
+<form action="">
+<label for="fname">First Name</label> <br>
+<input type="text"id="fname"name="firstname"placeholder="Your Name.." required>
+<label for="lname">last Name</label> <br>
+<input type="text"id="lname"name="lastname"placeholder="Your Last Name.."required>
+<label for="Adress">Line Address</label> <br>
+<input type="text"id="Address"name="Adress"placeholder="Enter Your Line Address.."required>
+<label for="phone">Phone Number</label> <br>
+<input type="text"id="phone"name="phone"placeholder=" Enter Your Phone Number.."required>
+<label for="Gender">Gender</label>
+<select name="gender" id="gender">
+    <option value="male">Male</option>
+    <option value="fmale">Female</option>
+    <option value="segen">Select Gender</option>
+</select><br>
+
+  <label for="email">Email</label> <br>
+  <input type="email"name="email" id="" aria-describedby="emailHelpId" placeholder=" Enter with this format: stev@mail.com"> 
+  <br> <br>
+<label for="paswrd">Password</label> 
+<input type="password" name="password" id="password"placeholder="Enter Your Passwrd">
+
+</form>
+<button type="submit" class="btn" onclick="changeText(this)">SUBMIT</button>
+    </div>
+    
+ <script>
+        function changeText(id){
+            id.innerHTML = "Form submition Successful Refresh Browser !!!";
+        }
+    </script>
+
+
+ <script type="text/javascript">
+  alert("Form submition sucessful");    
+ </script>   
+</body>
+</html>

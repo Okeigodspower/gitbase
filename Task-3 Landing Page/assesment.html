@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .div1 {
+            margin: 0%;
+            position: fixed;
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: 2px solid grey;
+            border-radius: 8px;
+
+
+
+        }
+
+        li a:hover:not(.active) {
+            background-color: blue;
+            color: coral;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+
+        .lm {
+            color: BLUE;
+            font-size: 20PX;
+            float: left;
+            margin-top: 100px;
+        }
+
+        .av {
+            color: black;
+            font-size: 20PX;
+            margin-top: 20px;
+            width: 100%;
+            background-color: white;
+            border: 1px solid grey;
+        }
+
+        .task {
+            width: 100%;
+            height: 400px;
+            background-color: rgba(209, 197, 197, 0.397);
+
+        }
+
+        .tablediv {
+            background-color: whitesmoke;
+            height: 300px;
+            border: 1px solid grey;
+            margin-top: 10px;
+
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            border: none;
+            text-align: left;
+            padding: 8px;
+            font-size: 30px;
+            color: #04AA6D;
+
+        }
+
+        td {
+            border: none;
+            text-align: left;
+            padding: 10px;
+            padding-bottom: 40px;
+            padding-top: 12px;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+
+        .footdiv {
+            margin-top: 50px;
+            position: fixed;
+        }
+    </style>
+
+
+
+
+    <div class="div1">
+        <ul>
+            <li><a href="ass">Assessment History</a></li>
+            <li><a href="#news">Notification</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li style="float:right;   border: 2px solid grey;
+            border-radius: 8px;"><a class="active" href="#about">Sign-Up</a></li>
+        </ul>
+    </div>
+    
+    <a href="./index.html">
+        <p class="lm">
+            <=BACK </p>
+    </a>
+
+
+    <button class="av">Your average assessement score is <span style="color: #04AA6D;"><br>% </span> </button>
+
+
+    <div class="tablediv">
+        <table>
+            <tr>
+                <th>Week</th>
+                <th>Status</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Week 1 Task</td>
+                <td>Pending</td>
+                <td>%</td>
+            </tr>
+            <tr>
+                <td>Week 2 Task</td>
+                <td>Pending</td>
+                <td>%</td>
+            </tr>
+            <tr>
+                <td>Week 3 Task</td>
+                <td>Pending</td>
+                <td>%</td>
+            </tr>
+            <tr>
+                <td>Week 4 Task</td>
+                <td>Pending</td>
+                <td>%</td>
+            </tr>
+
+
+        </table>
+    </div>
+
+    <div class="footdiv">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#leson">Lessons</a></li>
+            <li><a href="./assesment.html">Assessment</a></li>
+            <li><a href="./payment.html">Payment</a></li>
+            <li><a href="./profile.html">Profile</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

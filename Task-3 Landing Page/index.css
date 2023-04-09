@@ -1,0 +1,191 @@
+
+
+.div1{
+  margin: 0%;
+  position: fixed;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 8px;
+    
+    
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: blue;
+    color: coral;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+button{
+margin-top: 60px;
+padding-top: 5px;
+padding-bottom: 5px;
+width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: rgba(128, 128, 128, 0.562);
+
+}
+
+.e{
+    color: green;
+    font-style: italic;
+}
+.learning{
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0;
+    
+    
+}
+.div2{
+  max-width: 100%;
+  height: auto;
+  background: url(./andrew-neel-a_K7R1kugUE-unsplash.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5; 
+
+}
+.wk{
+  color: #0f0303;
+  /* background-color: rgb(135, 212, 135); */
+width: 150px;
+padding: 5px 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left:100px ;
+border: none;
+
+} 
+
+
+.con{
+  color: #ccc;
+  background-color: darkgreen;
+width: 150px;
+padding: 20px 10px;
+margin-top: 150px;
+margin-bottom: 50px;
+margin-left: 1000px;
+}
+
+#content {
+position: relative;
+width: 48%;
+background-color: #cccccc;
+float: left;
+height: 30vh;
+margin-left: 1%;
+margin-top: 1%;
+border-radius: 15px;
+}
+.content1{
+  position: relative;
+  width: 48%;
+  background-color: #cccccc;
+  float: left;
+  height: 30vh;
+  margin-left: 1%;
+  margin-top: 1%;
+  border-radius: 15px;
+}
+.content2{
+  position: relative;
+  width: 48%;
+  background-color: #cccccc;
+  float: left;
+  height: 30vh;
+  margin-left: 1%;
+  margin-top: 1%;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+
+
+.divfoota{
+  width: 100%;
+  float: right;
+  background-color: grey;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  padding: 5px;
+  border: 3px solid #3a0909;
+  position: fixed;
+
+
+}
+.EXPLOR{
+  color: white;
+  background-color: darkblue;
+  width: 100%;
+  margin: 0%;
+
+}
+.b{
+  width: 20px;
+  margin-top: 20px ;
+  margin-left: 60px;
+padding:5px 20px;
+  color: #ccc;
+  background-color: coral;
+}
+
+.y{
+  width: 20px;
+  margin-top: 20px ;
+  margin-left: 60px;
+  padding: 5px 20px;
+  color: white;
+  background-color:coral;
+}
+.sp{
+  color: #04AA6D;
+}
+
+.inerbtn{
+  width: 20px;
+  margin-top: 20px ;
+  margin-left: 60px;
+  padding: 5px;
+  color: #ccc;
+  background-color:green; 
+}
+.ptaginner{
+margin-left: 40px;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
